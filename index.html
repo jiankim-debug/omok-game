@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>오목 게임</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <main class="app">
+      <header class="topbar">
+        <div>
+          <p class="eyebrow">온라인 오목</p>
+          <h1>오목 게임</h1>
+        </div>
+        <button id="new-game-btn" class="primary-btn">새 게임</button>
+      </header>
+
+      <section class="panel">
+        <div class="info-row">
+          <div class="turn-box">
+            <span class="label">현재 차례</span>
+            <span id="turn-indicator" class="turn-indicator black">검은돌</span>
+          </div>
+          <div class="status-box">
+            <span class="label">상태</span>
+            <span id="status-text">게임 시작</span>
+          </div>
+        </div>
+
+        <div class="board-wrap">
+          <div id="board" class="board" aria-label="오목 판"></div>
+        </div>
+      </section>
+    </main>
+
+    <script src="script.js"></script>
+  </body>
+</html>
