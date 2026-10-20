@@ -1,0 +1,13 @@
+{
+  "name": "omok-online",
+  "version": "1.0.0",
+  "description": "온라인 오목 게임 with replay",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.19.2",
+    "socket.io": "^4.8.1"
+  }
+}
